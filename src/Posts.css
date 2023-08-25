@@ -1,0 +1,27 @@
+.TextPost {
+    border: 1.2px solid black;
+    line-height: 1;
+    text-align: left;
+    text-justify: distribute;
+    width: calc(22% - 10px);
+    height: 15rem;
+    padding: 1rem 1rem;
+    margin: 0.7rem;
+    align-items: center;
+}
+
+.TextPost:after{
+    padding-bottom: 100%;
+  }
+  
+  h3 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em
+  }
+
+  p {
+    color: rgb(56, 56, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em
+  }
