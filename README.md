@@ -3,6 +3,5 @@ Imagine instagram for short stories. It's a very simple react app that pulls dat
 This project was created with [Create React App](https://github.com/facebook/create-react-app).
 To run this project locally
 ```yarn run start```
-
-Runs the app in the development mode.\
+runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
