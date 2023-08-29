@@ -9,11 +9,7 @@ const usersData = await fetch("https://dummyjson.com/users").then((response) =>
   response.json()
 );
 
-function capitalizeBody(string) {
-  return string.replace(/^./, string[0].toUpperCase());
-}
-
-function getUserById(number) {
+function GetUserById(number) {
   const userDetails = usersData.users.find((x) => x.id === number);
   if (userDetails === undefined) {
     return "anonymous note";
@@ -36,8 +32,8 @@ export class PostsGrid extends React.Component {
         {postsData.posts.map((post) => (
           <div className="TextPost">
             <h3>{post.title.toUpperCase()}</h3>
-            <h4>{getUserById(post.userId)}</h4>
-            <p>{capitalizeBody(post.body)}</p>
+            <h4>{GetUserById(post.userId)}</h4>
+            <p>{post.body}</p>
           </div>
         ))}
       </div>

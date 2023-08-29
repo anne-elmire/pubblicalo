@@ -1,6 +1,6 @@
 import React from "react";
-import { Header } from "./Header";
-import { PostsGrid } from "./Posts";
+import { Header } from "./components/Header";
+import { PostsGrid } from "./components/Posts";
 
 function App() {
   return (
